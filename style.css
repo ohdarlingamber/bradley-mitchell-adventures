@@ -31,6 +31,7 @@ body {
     padding: 16px;
     font-family: "Edu AU VIC WA NT Dots", cursive;
     font-weight: bold;
+    
 }
 
 .navbar ul {
@@ -60,7 +61,7 @@ img {
     border-radius: 10px;
 }
 
-/* content */
+/* home content */
 .item {
     display: flex;
     flex-direction: column;
@@ -97,20 +98,120 @@ img {
     flex-wrap: wrap;
     gap: 16px;
     align-items: center;
+    flex: 1;
     
 }
+
+/* contact */
+
+.contact {
+    padding: 12px 24px 24px 24px;
+    margin: 48px 12px;
+    border-radius: 4px;
+
+}
+
+label {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid aqua;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    border: 1px solid rgb(255, 0, 144);
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 0, 144);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:focus {
+    background-color: rgb(3, 182, 247);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(3, 182, 247);
+}
+
+/* Contact Form */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh; /* Adjust as needed */
+    padding: 20px;
+    background-color: rgb(3, 182, 247);
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 0, 144);
+    font-family: 'bebas neue', sans-serif;
+    font-size: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    font-family: 'bebas neue', sans-serif;
+    text-shadow: 2px 2px 4px rgb(255, 0, 144);
+    font-size: 24px;
+}
+
+
+
 
 
 /* Footer */
 .footer {
     background-color: rgb(118, 105, 130);
     text-align: center;
-    padding: 16px;
+    padding: 8px;
     font-family: 'Dancing Script', cursive;
     bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 10px rgb(0, 0, 0);
     border-top: 2px solid rgba(255, 255, 255, 0.2);
-    position:absolute;
-    font-size: 25px;
+    position:fixed;
+    font-size: 14px;
 }
