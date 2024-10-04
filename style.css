@@ -16,8 +16,9 @@ body {
     padding: 0 16px;
     font-size: 18px;
     text-align: center;
-    color: rgb(3, 182, 247);
+    color: rgb(0, 252, 252);
     font-family: "Dancing script", cursive;
+    text-shadow: 4px 4px 9px rgb(255, 0, 183), 0 0 5px #0000ff;
 }
 
 /* Navbar */
