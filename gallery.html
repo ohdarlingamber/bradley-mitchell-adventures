@@ -1,273 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<!-- header-->
-<div class="header">
+  <!-- header-->
+  <div class="header">
     <h1>The Adventures of Bradley Mitchell
-        ≽^•⩊•^≼
+      ≽^•⩊•^≼
     </h1>
-    </div>
+  </div>
 
-<div class="body">
+  <div class="body">
 
-<!-- navbar -->
+    <!-- navbar -->
 
     <div class="navbar">
-        <ul>
+      <ul>
         <li>🐾<a href="index.html">Home</a></li>
         <li>🐾<a href="about.html">About</a></li>
         <li>🐾<a href="adventures.html">Adventures</a></li>
         <li>🐾<a href="gallery.html">Gallery</a></li>
         <li>🐾<a href="contact.html">Contact</a></li>
-        </ul>
+      </ul>
     </div>
 
-<!-- gallery -->
- <!-- This input must be outside the wrapper to we can target the carousel from it using css ~ -->
-  <!-- This one is invisible it can be controller from anywhere using label -->
-  <input type="checkbox" id="toggleFullscreen"/>
-  
-  <main>
-    <div id="gallery"><!-- gallery start -->
-      <div id="gallery-container"><!-- gallery-container start -->
-        <!-- The checkbox visual. The for prop links it to the inout so when you click on this it check/uncheck the checkbox -->
-        <label id="toggleFullscreenVisual" for="toggleFullscreen"></label>
-        
-        <!-- gallery-content start -->
-        <div id="gallery-content">
-          
-          <div id="pic_1" class="gallery__item">
-            <a href="#" class="click-zone click-zone-prev">
-              <div class="arrow arrow-disabled arrow-prev"><span>&lt;</span></div>
-            </a> 
-            <a href="#pic_2" class="click-zone click-zone-next">
-              <div class="arrow arrow-next"><span>&gt;</span></div>
-            </a>
-            <img src="photos/13.jpeg" alt="Brad1">
+    <!-- gallery -->
+
+    <div class="gallery">
+      <div class="row">
+        <div class="img-container" style="background-image:url(photos/1.jpeg)">
+          <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/2.jpeg)">
+          <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/3.jpeg)">
+          <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/4.jpeg)">
+          <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/5.jpeg)">
+          <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/1.jpeg)">
+          <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/2.jpeg)">
+          <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/3.jpeg)">
+          <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/4.jpeg)">
+          <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/5.jpeg)">
+          <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/1.jpeg)">
+          <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/2.jpeg)">
+          <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/3.jpeg)">
+          <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/4.jpeg)">
+          <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/5.jpeg)">
+          <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="img-container" style="background-image:url(photos/6.jpeg)">
+          <div class="img" style="background-image:url(photos/6.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/7.jpeg)">
+          <div class="img" style="background-image:url(photos/7.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/8.jpeg)">
+          <div class="img" style="background-image:url(photos/8.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/9.jpeg)">
+          <div class="img" style="background-image:url(photos/9.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/10.jpeg)">
+          <div class="img" style="background-image:url(photos/10.jpeg)"></div>
+        </div>
+
+        <div class="img-container" style="background-image:url(photos/6.jpeg)">
+          <div class="img" style="background-image:url(photos/6.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/7.jpeg)">
+          <div class="img" style="background-image:url(photos/7.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/8.jpeg)">
+          <div class="img" style="background-image:url(photos/8.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/9.jpeg)">
+          <div class="img" style="background-image:url(photos/9.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/10.jpeg)">
+          <div class="img" style="background-image:url(photos/10.jpeg)"></div>
+        </div>
+
+        <div class="img-container" style="background-image:url(photos/6.jpeg)">
+          <div class="img" style="background-image:url(photos/6.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/7.jpeg)">
+          <div class="img" style="background-image:url(photos/7.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/8.jpeg)">
+          <div class="img" style="background-image:url(photos/8.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/9.jpeg)">
+          <div class="img" style="background-image:url(photos/9.jpeg)"></div>
+        </div>
+        <div class="img-container" style="background-image:url(photos/10.jpeg)">
+          <div class="img" style="background-image:url(photos/10.jpeg)"></div>
+        </div>
+
+
+
+
+
+
+
+      <!-- footer -->
+      <div class="footer">
+        <ul>
+          <div class="footer-container">
+            <!--<p> ฅ^•ﻌ•^ฅ Bradley Mitchell </p>-->
+
+            <li>
+              <p class="instagram">
+                <a href="https://www.instagram.com/my.bradley.mitchell/" class="fa fa-instagram"></a>
+              </p>
+            </li>
+
+            <br>
+
+            <li>
+              <p class="pet-finder">
+                <a href="https://www.petfinder.com/">Adopt a pet!</a>
+              </p>
+            </li>
           </div>
-          
-          <div id="pic_2" class="gallery__item">
-            <a href="#pic_1" class="click-zone click-zone-prev">
-              <div class="arrow arrow-prev"><span>&lt;</span></div>
-            </a> 
-            <a href="#pic_3" class="click-zone click-zone-next">
-              <div class="arrow arrow-next"><span>&gt;</span></div>
-            </a>
-            <img src="photos/15.jpeg" alt="Brad2">
-          </div>
-          
-          <div id="pic_3" class="gallery__item">
-            <a href="#pic_2" class="click-zone click-zone-prev">
-              <div class="arrow arrow-prev"><span>&lt;</span></div>
-            </a> 
-            <a href="#pic_4" class="click-zone click-zone-next">
-              <div class="arrow arrow-next"><span>&gt;</span></div>
-            </a>
-            <img src="photos/19.jpeg" alt="Brad3">
-          </div>
-          
-          <div id="pic_4" class="gallery__item">
-            <a href="#pic_3" class="click-zone click-zone-prev">
-              <div class="arrow arrow-prev"><span>&lt;</span></div>
-            </a> 
-            <a href="#pic_5" class="click-zone click-zone-next">
-              <div class="arrow arrow-next"><span>&gt;</span></div>
-            </a>
-            <img src="photos/21.jpeg" alt="Brad4">
-          </div>
-          
-          <div id="pic_5" class="gallery__item">
-            <a href="#pic_4" class="click-zone click-zone-prev">
-              <div class="arrow arrow-prev"><span>&lt;</span></div>
-            </a> 
-            <a href="#" class="click-zone click-zone-next">
-              <div class="arrow arrow-disabled arrow-next"><span>&gt;</span></div>
-            </a>
-            <img src="photos/25.jpeg" alt="Brad5">
-          </div>
+        </ul>
+      </div>
+    </div>
 
-          <div id="pic_6" class="gallery__item">
-            <a href="#pic_5" class="click-zone click-zone-prev">
-              <div class="arrow arrow-prev"><span>&lt;</span></div>
-            </a> 
-            <a href="#pic_7" class="click-zone click-zone-next">
-              <div class="arrow arrow-next"><span>&gt;</span></div>
-            </a>
-            <img src="photos/29.jpeg" alt="Brad6">
-          </div>
+    <div class="row">
+      <div class="img-container" style="background-image:url(photos/11.jpeg)">
+          <div class="img" style="background-image:url(photos/11.jpeg)"></div>
+      </div>
+      <div class="img-container" style="background-image:url(photos/12.jpeg)">
+          <div class="img" style="background-image:url(photos/12.jpeg)"></div>
+      </div>
+      <div class="img-container" style="background-image:url(photos/13.jpeg)">
+          <div class="img" style="background-image:url(photos/13.jpeg)"></div>
+      </div>
+      <div class="img-container" style="background-image:url(photos/14.jpeg)">
+          <div class="img" style="background-image:url(photos/14.jpeg)"></div>
+      </div>
+      <div class="img-container" style="background-image:url(photos/15.jpeg)">
+          <div class="img" style="background-image:url(photos/15.jpeg)"></div>
+      </div>
 
-            <div id="pic_7" class="gallery__item">
-                <a href="#pic_6" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#pic_8" class="click-zone click-zone-next">
-                <div class="arrow arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/31.jpeg" alt="Brad7">
-            </div>
+      <div class="img-container" style="background-image:url(photos/11.jpeg)">
+        <div class="img" style="background-image:url(photos/11.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/12.jpeg)">
+        <div class="img" style="background-image:url(photos/12.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/13.jpeg)">
+        <div class="img" style="background-image:url(photos/13.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/14.jpeg)">
+        <div class="img" style="background-image:url(photos/14.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/15.jpeg)">
+        <div class="img" style="background-image:url(photos/15.jpeg)"></div>
+    </div>
 
-            <div id="pic_8" class="gallery__item">
-                <a href="#pic_7" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#pic_9" class="click-zone click-zone-next">
-                <div class="arrow arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/32.jpeg" alt="Brad8">
-            </div>
+    <div class="img-container" style="background-image:url(photos/11.jpeg)">
+      <div class="img" style="background-image:url(photos/11.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/12.jpeg)">
+      <div class="img" style="background-image:url(photos/12.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/13.jpeg)">
+      <div class="img" style="background-image:url(photos/13.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/14.jpeg)">
+      <div class="img" style="background-image:url(photos/14.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/15.jpeg)">
+      <div class="img" style="background-image:url(photos/15.jpeg)"></div>
+  </div>
 
-            <div id="pic_9" class="gallery__item">
-                <a href="#pic_8" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#pic_10" class="click-zone click-zone-next">
-                <div class="arrow arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/16.jpeg" alt="Brad9">
-            </div>
+  </div>
 
-            <div id="pic_10" class="gallery__item">
-                <a href="#pic_9" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#" class="click-zone click-zone-next">
-                <div class="arrow arrow-disabled arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/34.jpeg" alt="Brad10">
-            </div>
+  <div class="row">
+    <div class="img-container" style="background-image:url(photos/1.jpeg)">
+      <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/2.jpeg)">
+      <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/3.jpeg)">
+      <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/4.jpeg)">
+      <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/5.jpeg)">
+      <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/1.jpeg)">
+      <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/2.jpeg)">
+      <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/3.jpeg)">
+      <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/4.jpeg)">
+      <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/5.jpeg)">
+      <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+    </div>
 
-            <div id="pic_11" class="gallery__item">
-                <a href="#pic_10" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#pic_12" class="click-zone click-zone-next">
-                <div class="arrow arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/35.jpeg" alt="Brad11">
-            </div>
+    <div class="img-container" style="background-image:url(photos/1.jpeg)">
+      <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/2.jpeg)">
+      <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/3.jpeg)">
+      <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/4.jpeg)">
+      <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/5.jpeg)">
+      <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/1.jpeg)">
+      <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/2.jpeg)">
+      <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/3.jpeg)">
+      <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/4.jpeg)">
+      <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/5.jpeg)">
+      <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+    </div>
 
-            <div id="pic_12" class="gallery__item">
-                <a href="#pic_11" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#pic_13" class="click-zone click-zone-next">
-                <div class="arrow arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/36.jpeg" alt="Brad12">
-            </div>
-
-            <div id="pic_13" class="gallery__item">
-                <a href="#pic_12" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#pic_14" class="click-zone click-zone-next">
-                <div class="arrow arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/37.jpeg" alt="Brad13">
-            </div>
-
-            <div id="pic_14" class="gallery__item">
-                <a href="#pic_13" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#pic_15" class="click-zone click-zone-next">
-                <div class="arrow arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/38.jpeg" alt="Brad14">
-            </div>
-
-            <div id="pic_15" class="gallery__item">
-                <a href="#pic_14" class="click-zone click-zone-prev">
-                <div class="arrow arrow-prev"><span>&lt;</span></div>
-                </a> 
-                <a href="#" class="click-zone click-zone-next">
-                <div class="arrow arrow-disabled arrow-next"><span>&gt;</span></div>
-                </a>
-                <img src="photos/39.jpeg" alt="Brad15">
-            </div>
-
-
-        </div><!-- gallery-content end -->
-        
-        <!-- gallery-controls start -->
-        <div id="gallery-controls">
-          <a href="#pic_1" class="controls__dot">
-            <span class="hidden">pic 1</span>
-          </a>
-          <a href="#pic_2" class="controls__dot">
-            <span class="hidden">pic 2</span>
-          </a>
-          <a href="#pic_3" class="controls__dot">
-            <span class="hidden">pic 3</span>
-          </a>
-          <a href="#pic_4" class="controls__dot">
-            <span class="hidden">pic 4</span>
-          </a>
-          <a href="#pic_5" class="controls__dot">
-            <span class="hidden">pic 5</span>
-          </a>
-          <a href="#pic_6" class="controls__dot">
-            <span class="hidden">pic 6</span>
-            </a>
-            <a href="#pic_7" class="controls__dot">
-            <span class="hidden">pic 7</span>
-            </a>
-            <a href="#pic_8" class="controls__dot">
-                <span class="hidden">pic 8</span>
-                </a>
-            <a href="#pic_9" class="controls__dot">
-                <span class="hidden">pic 9</span>
-                </a>
-            <a href="#pic_10" class="controls__dot">
-                <span class="hidden">pic 10</span>
-                </a>
-        </div><!-- gallery-controls end -->
-      </div><!-- gallery-container end -->
-    </div><!-- gallery end -->
-    </main>
-
-
-
-
-
-
-
-
-
-
-<!-- footer -->
-<div class="footer">
-    <ul>
-        <div class="footer-container">
-   <!--<p> ฅ^•ﻌ•^ฅ Bradley Mitchell </p>-->
-
-   <li><p class="instagram">
-    <a href="https://www.instagram.com/my.bradley.mitchell/" class="fa fa-instagram"></a>
-   </p></li>
-
-   <br>
-
-   <li><p class="pet-finder">
-    <a href="https://www.petfinder.com/">Adopt a pet!</a>
-   </p></li>
+    <div class="img-container" style="background-image:url(photos/1.jpeg)">
+      <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/2.jpeg)">
+      <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/3.jpeg)">
+      <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/4.jpeg)">
+      <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/5.jpeg)">
+      <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/1.jpeg)">
+      <div class="img" style="background-image:url(photos/1.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/2.jpeg)">
+      <div class="img" style="background-image:url(photos/2.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/3.jpeg)">
+      <div class="img" style="background-image:url(photos/3.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/4.jpeg)">
+      <div class="img" style="background-image:url(photos/4.jpeg)"></div>
+    </div>
+    <div class="img-container" style="background-image:url(photos/5.jpeg)">
+      <div class="img" style="background-image:url(photos/5.jpeg)"></div>
+    </div>
 </div>
-</ul>
+
+<div class="row">
+  <div class="img-container" style="background-image:url(photos/6.jpeg)">
+    <div class="img" style="background-image:url(photos/6.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/7.jpeg)">
+    <div class="img" style="background-image:url(photos/7.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/8.jpeg)">
+    <div class="img" style="background-image:url(photos/8.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/9.jpeg)">
+    <div class="img" style="background-image:url(photos/9.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/10.jpeg)">
+    <div class="img" style="background-image:url(photos/10.jpeg)"></div>
+  </div>
+
+  <div class="img-container" style="background-image:url(photos/6.jpeg)">
+    <div class="img" style="background-image:url(photos/6.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/7.jpeg)">
+    <div class="img" style="background-image:url(photos/7.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/8.jpeg)">
+    <div class="img" style="background-image:url(photos/8.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/9.jpeg)">
+    <div class="img" style="background-image:url(photos/9.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/10.jpeg)">
+    <div class="img" style="background-image:url(photos/10.jpeg)"></div>
+  </div>
+
+  <div class="img-container" style="background-image:url(photos/6.jpeg)">
+    <div class="img" style="background-image:url(photos/6.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/7.jpeg)">
+    <div class="img" style="background-image:url(photos/7.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/8.jpeg)">
+    <div class="img" style="background-image:url(photos/8.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/9.jpeg)">
+    <div class="img" style="background-image:url(photos/9.jpeg)"></div>
+  </div>
+  <div class="img-container" style="background-image:url(photos/10.jpeg)">
+    <div class="img" style="background-image:url(photos/10.jpeg)"></div>
+  </div>
+</div>
+<div class="row">
+  <div class="img-container" style="background-image:url(photos/11.jpeg)">
+    <div class="img" style="background-image:url(photos/11.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/12.jpeg)">
+    <div class="img" style="background-image:url(photos/12.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/13.jpeg)">
+    <div class="img" style="background-image:url(photos/13.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/14.jpeg)">
+    <div class="img" style="background-image:url(photos/14.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/15.jpeg)">
+    <div class="img" style="background-image:url(photos/15.jpeg)"></div>
+</div>
+
+<div class="img-container" style="background-image:url(photos/11.jpeg)">
+  <div class="img" style="background-image:url(photos/11.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/12.jpeg)">
+  <div class="img" style="background-image:url(photos/12.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/13.jpeg)">
+  <div class="img" style="background-image:url(photos/13.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/14.jpeg)">
+  <div class="img" style="background-image:url(photos/14.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/15.jpeg)">
+  <div class="img" style="background-image:url(photos/15.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/11.jpeg)">
+  <div class="img" style="background-image:url(photos/11.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/12.jpeg)">
+  <div class="img" style="background-image:url(photos/12.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/13.jpeg)">
+  <div class="img" style="background-image:url(photos/13.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/14.jpeg)">
+  <div class="img" style="background-image:url(photos/14.jpeg)"></div>
+</div>
+<div class="img-container" style="background-image:url(photos/15.jpeg)">
+  <div class="img" style="background-image:url(photos/15.jpeg)"></div>
 </div>
 </div>
-<main>
-</main>
+</div>
+</div>
 </body>
+
 </html>
