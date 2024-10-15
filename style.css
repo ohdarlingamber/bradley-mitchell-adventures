@@ -399,6 +399,24 @@ textarea {
     list-style-type: none;
 }
 
+
+
+.about-image {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+
+.about-image:hover {
+    transform: scaleX(-1);
+}
+
+
+.about-image-container {
+    
+ 
+}
+
 .brads-background {
     background-color: rgb(239, 134, 216);
     width: 40%;
