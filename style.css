@@ -91,7 +91,7 @@ img:hover {
     border-radius: 10px;
     background-color: whitesmoke;
     text-align: center;
-    font-family: 'bebas neue', sans-serif;
+    font-family: 'caveat', cursive;
     background:rgb(0, 252, 252);
     font-size: 20px;
 }
@@ -376,6 +376,21 @@ textarea {
 
   .story1 {
     margin-bottom: 30px;
+    font-family: 'caveat', cursive;
+  }
+
+  .first-adventure {
+    font-family: 'bebas neue', sans-serif;
+  }
+
+
+    .story2 {
+        margin-bottom: 30px;
+        font-family: 'caveat', cursive;
+    }
+
+  .second-adventure {
+    font-family: 'bebas neue', sans-serif;
   }
 
   .body {
@@ -397,6 +412,8 @@ textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .about-h2 {
@@ -406,7 +423,8 @@ textarea {
 
 .about-brad {
     list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'caveat', cursive;
+    font-size: 20px;
 }
 
 .about-image {
@@ -425,7 +443,7 @@ height: 200px;
  
 }
 
-.brads-background {
+ /* .brads-background {
     background-color: rgb(239, 134, 216);
     width: 40%;
     height: 300px;
@@ -436,10 +454,12 @@ height: 200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .background-h2 {
     text-align: center;
     font-family: 'bebas neue', sans-serif;
 }
+*/
 
 .brads-favorites {
     background-color: skyblue;
@@ -449,7 +469,11 @@ height: 200px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'caveat', cursive;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 20px;
     
 }
 
