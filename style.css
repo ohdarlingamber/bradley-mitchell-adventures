@@ -272,8 +272,8 @@ textarea {
     width: 20%;
     height: auto;
     margin: 20px;
-    border-radius: 8px;
-    border: 4px solid rgb(255, 0, 183);
+    display: flex;
+    justify-content: center;
 
   }
 
@@ -286,9 +286,9 @@ textarea {
     width: 40%;
     height: 400px;
     overflow-y: scroll;
-    box-shadow: 4px 4px 8px rgb(3, 182, 247);
     align-items: center;
     max-width: 800px;
+    background-color: rgb(169, 55, 192);
 
   }
 
@@ -300,25 +300,41 @@ textarea {
     width: 100%;
     max-width: 1600px;
     margin-bottom: 80px;
+   
   }
 
   .story1 {
     margin-bottom: 30px;
     font-family: 'caveat', cursive;
+    text-align: center;
+    font-size: 20px;
+    
   }
 
   .first-adventure {
     font-family: 'bebas neue', sans-serif;
+    text-align: center;
+    text-shadow: 5px 2px 5px rgb(0, 0, 0);
+    color: white;
+    text-decoration: underline  rgb(255, 0, 183);
   }
 
 
     .story2 {
         margin-bottom: 30px;
         font-family: 'caveat', cursive;
+        text-align: center;
+        font-size: 20px;
+        
     }
 
   .second-adventure {
     font-family: 'bebas neue', sans-serif;
+    text-align: center;
+    text-shadow: 5px 2px 5px black;
+    color: white;
+    text-decoration: underline  rgb(255, 0, 183);
+
   }
 
   .body {
@@ -333,20 +349,26 @@ textarea {
 /* About */
 
 .profile {
-    background-color: seashell;
+    background-color: rgb(0, 252, 252);
     width: 40%;
     height: 300px;
     overflow-y: scroll;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 3px solid rgb(255, 0, 183);
+    border-radius: 10px;
     margin: 20px;
     padding: 20px;
+    box-shadow: 10px 10px 5px purple;
+    display: block;
+    
+    
 }
 
 .about-h2 {
     text-align: center;
     font-family: 'bebas neue', sans-serif;
+    text-shadow: 2px 2px rgb(255, 0, 183);
+    font-size: 30px;
 }
 
 .about-brad {
@@ -387,24 +409,29 @@ height: 200px;
 */
 
 .brads-favorites {
-    background-color: skyblue;
+    background-color: rgb(0, 252, 252);
     width: 40%;
     height: 300px;
     overflow-y: scroll;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 3px solid rgb(255, 0, 183);
+    box-shadow: 10px 10px 5px purple;
+    border-radius: 10px;
     font-family: 'caveat', cursive;
     font-size: 20px;
     margin-bottom: 40px;
     margin-top: 20px;
     padding: 20px;
+    position: vertical-align;
+    display: block;
     
 }
 
 .favorites-h2 {
     text-align: center;
     font-family: 'bebas neue', sans-serif;
+    text-shadow: 2px 2px rgb(255, 0, 183);
+    font-size: 30px;
 }
 
 .brads-favorites ul {
